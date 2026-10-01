@@ -4,4 +4,4 @@ class Veiculo:
         self.placa = placa
 
     def __str__(self):
-        return f"{self.modelo} - Placa: {self.placa}"
+        return f"{self.modelo} - {self.placa}"
